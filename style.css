@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+
+@media screen and (min-width: 769px){
+    img {
+        height: 80px;
+        display: block;
+        margin: 0px auto;
+    }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size:50px;
+            text-shadow: 5px 5px 10px #000;
+            
+        }
+
+        h2 {
+            text-align: center;
+            color: rgb(255, 248, 248);
+            text-decoration: underline;
+
+        }
+
+        body {
+            background-color: #488fb8;
+            font-family: 'Barlow Condensed', sans-serif;  
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+
+        .border {
+            border: 10px solid #1d71a1 ;
+            border-style: double;
+            border-radius: 40px;
+            max-width: 100px;
+            min-width: 45%;
+            position: sticky;
+            left: 28%;
+            display: inline-block;
+        }
+
+        .borderint {
+            text-decoration: none;
+            border: 5px solid #1d71a1;
+            border-style: double;
+            border-radius: 40px;
+            max-width: 100px;
+            min-width: 80%;
+            position: sticky;
+            left: 32%;
+            display: inline-block;
+            transition: 0.25s;
+
+        }
+
+        #divso {
+            background-color: rgb(40, 42, 44);
+            border: solid 10px;
+            border-color: rgb(40, 42, 44);
+            margin: -1%;
+            font-style: italic;
+        }
+
+        span {
+            font-style: italic;
+        }
+
+        a {
+            display:block;
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            transition: 1s;
+
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            text-align: center;
+        }   
+
+        .centro {
+            align-items: center;
+            margin-top: 15%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .borderint:hover {
+            font-size: 27px;
+            background-color: #1d71a1;
+            border-color: #1d71a1;
+            box-shadow: 1px 2px 3px #000;
+        }
+/*Para computador acima*/ 
+}
+@media screen and (max-width: 768px){
+/*celular*/
+    img {
+        height: 80px;
+        display: block;
+        margin: 0px auto;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+        font-size:50px;
+        text-shadow: 5px 5px 10px #000;
+
+    }
+
+    h2 {
+        text-align: center;
+        color: rgb(255, 248, 248);
+        text-decoration: underline;
+
+    }
+
+    body {
+        background-color: #488fb8;
+        font-family: 'Barlow Condensed', sans-serif; 
+        margin-top: 35%; 
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+
+    .border {
+        border: 7px double #1d71a1;
+        border-radius: 40px;
+        max-width: 300px;
+        min-width: 45%;
+        position: sticky;
+        text-align: center;
+        display:block;
+        margin-right: auto;
+        margin-left:auto
+
+    }
+    .border:hover{
+            box-shadow: 1px 1px 1px #1872a7;
+    }
+
+    .borderint {
+        text-decoration: none;
+        border: 5px double #1d71a1;
+        border-radius: 40px;
+         max-width: 100px;
+        min-width: 80%;
+        position: sticky;
+        width: 100px;
+        display: inline-block;
+        transition: 0.25s;
+
+
+    }
+
+        #divso {
+            background-color: rgb(40, 42, 44);
+            border: solid 10px;
+            border-color: rgb(40, 42, 44);
+            margin: -1%;
+            font-style: italic;
+        }
+
+        span {
+            font-style: italic;
+        }
+
+        a {
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            transition: 1s;
+
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            text-align: center;
+        }   
+
+        .centro {
+            align-items: center;
+            margin-top: 15%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .borderint:hover {
+            font-size: 27px;
+            background-color: #1c5f86;
+            border-color: #2676a5;
+            box-shadow: 1px 2px 3px #000;
+        }
+}
+
+

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap');
+body{
+    background-color: #488fb8;
+    font-family: 'Barlow Condensed', sans-serif;  
+    color:white
+}
+h1{
+    text-align:center;
+    font-size:40px;
+    text-shadow:5px 5px 5px #000;
+    
+}
+#seguranca p{
+    max-width: 500px;
+    text-align: justify;
+    border:7px double #125881;
+    font-weight: bold;
+    font-size:20px;
+    padding: 10px;
+    padding-left: 5px;
+}
+#seguranca h3{
+    font-weight:bold;
+    font-size:30px;
+    display:block;
+    text-shadow:5px 5px 5px #000;
+
+
+}
+#conforto p{ 
+    max-width: 500px;
+    text-align: justify;
+    border:7px double #125881;
+    font-weight: bold;
+    font-size:20px;
+    padding: 10px;
+    padding-left: 5px;
+
+}
+#conforto h3{
+    font-weight:bold;
+    text-align: left;
+    font-size:30px;
+    display:inline;
+    text-shadow:5px 5px 5px #000
+}
+#acessibilidade p{
+    max-width: 500px;
+    text-align: justify;
+    border:7px double #125881;
+    font-weight: bold;
+    font-size:20px;
+    padding: 10px;
+    padding-left: 5px;
+}
+#acessibilidade h3{
+    font-weight:bold;
+    text-align: left;
+    font-size:30px;
+    display:inline;
+    text-shadow:5px 5px 5px #000
+}
+#economia p{
+    max-width: 500px;
+    text-align: justify;
+    border:7px double #125881;
+    font-weight: bold;
+    font-size:20px;
+    padding: 10px;
+    padding-left: 5px;
+}
+#economia h3{
+    font-weight:bold;
+    text-align: left;
+    font-size:30px;
+    display:inline;
+    text-shadow:5px 5px 5px #000
+}
+#Flexibilidade p{
+    max-width: 500px;
+    text-align: justify;
+    border:7px double #125881;
+    font-weight: bold;
+    font-size:20px;
+    padding: 10px;
+    padding-left: 5px;
+}
+#Flexibilidade h3{
+    font-weight:bold;
+    text-align: left;
+    font-size:30px;
+    display:inline;
+    text-shadow:5px 5px 5px #000
+}
